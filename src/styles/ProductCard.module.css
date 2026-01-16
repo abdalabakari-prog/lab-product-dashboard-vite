@@ -1,3 +1,60 @@
-/* TODO: Style the product card container */
+=
+.productContainer {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-/* TODO: Add special styling for out-of-stock products */
+.outOfStock {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
+}
+
+.productContainer h3,
+.outOfStock h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2ecc71;
+  margin: 5px 0;
+}
+
+.availability {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.productImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.removeButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.removeButton:hover {
+  background-color: #c0392b;
+}
