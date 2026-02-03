@@ -1,0 +1,11 @@
+.inStock {
+  background-color: #e0f7fa;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.outOfStock {
+  background-color: #ffebee;
+  padding: 10px;
+  margin: 10px 0;
+}
